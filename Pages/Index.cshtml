@@ -2,6 +2,7 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
+    var filmname = "";
 }
 
 @*<div class="text-center">*@
@@ -27,13 +28,17 @@
             <script>
                 document.getElementById("Button1").onclick = function GetFilmNameFromTextBox() {
                     console.log(document.getElementById("textinput").value)
-                    var filmname = document.getElementById("textinput").value
-            </script>
+                    @filmname = document.getElementById("textinput").value
 
             @{
-                var a = Exec.Exec.GetScore("зашитники");
+                @if (filmname != "")
+                    var a = Exec.Exec.GetScore(filmname);
             }
-            <p>@a</p>
+            <p>Полученная оценка: @a[0]</p>
+            <p>Всего отзывов: @a[1]</p>
+            <p>Положительных отзывов: @a[2]</p>
+            <p>Негативных отзывов: @a[3]</p>
+            </script>
         </fieldset>
     </form>
 @*</div>*@

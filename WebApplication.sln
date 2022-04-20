@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "WebApplication.csproj", "{20F9A041-7069-408D-8362-0A22E2265F5B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1ML.ConsoleApp", "..\web(09.04.2022)\ConsoleApp1ML.ConsoleApp\ConsoleApp1ML.ConsoleApp.csproj", "{9D00EFD9-B8F0-4EFD-BF83-4FAC14984B66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1ML.Model", "..\web(09.04.2022)\ConsoleApp1ML.Model\ConsoleApp1ML.Model.csproj", "{DA9C0FFC-ACA0-4BCF-8518-991FEAC7B703}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinopoiskParser", "..\web(09.04.2022)\Parser\KinopoiskParser.csproj", "{F79EBE02-F41D-4C00-99EF-2EE3489E871D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{20F9A041-7069-408D-8362-0A22E2265F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20F9A041-7069-408D-8362-0A22E2265F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20F9A041-7069-408D-8362-0A22E2265F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D00EFD9-B8F0-4EFD-BF83-4FAC14984B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D00EFD9-B8F0-4EFD-BF83-4FAC14984B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D00EFD9-B8F0-4EFD-BF83-4FAC14984B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D00EFD9-B8F0-4EFD-BF83-4FAC14984B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA9C0FFC-ACA0-4BCF-8518-991FEAC7B703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA9C0FFC-ACA0-4BCF-8518-991FEAC7B703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA9C0FFC-ACA0-4BCF-8518-991FEAC7B703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA9C0FFC-ACA0-4BCF-8518-991FEAC7B703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79EBE02-F41D-4C00-99EF-2EE3489E871D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79EBE02-F41D-4C00-99EF-2EE3489E871D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79EBE02-F41D-4C00-99EF-2EE3489E871D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79EBE02-F41D-4C00-99EF-2EE3489E871D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

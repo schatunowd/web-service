@@ -14,4 +14,10 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\web(09.04.2022)\ConsoleApp1ML.ConsoleApp\ConsoleApp1ML.ConsoleApp.csproj" />
+    <ProjectReference Include="..\web(09.04.2022)\ConsoleApp1ML.Model\ConsoleApp1ML.Model.csproj" />
+    <ProjectReference Include="..\web(09.04.2022)\Parser\KinopoiskParser.csproj" />
+  </ItemGroup>
+
 </Project>
