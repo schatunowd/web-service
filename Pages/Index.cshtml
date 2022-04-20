@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">*@
+    @*<h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>  Веб-сервис</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Введите название фильма: </label>
+                <div class="col-md-4">
+                    <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+
+                    <span class="help-block">Помощь</span>
+                </div>
+            </div>
+            <input id="Button1" type="button" value="Получить оценку" />
+
+            <script>
+                document.getElementById("Button1").onclick = function GetFilmNameFromTextBox() {
+                    console.log(document.getElementById("textinput").value)
+                    var filmname = document.getElementById("textinput").value
+            </script>
+
+            @{
+                var a = Exec.Exec.GetScore("зашитники");
+            }
+            <p>@a</p>
+        </fieldset>
+    </form>
+@*</div>*@
